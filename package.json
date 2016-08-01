@@ -1,0 +1,28 @@
+{
+  "name": "hypnotic",
+  "version": "1.0.0",
+  "description": "I went to the Museum of the Moving Image and saw some really trippy computer graphics from the 1960s and decided to try my hand!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production browserify -t [babelify] src/index.js | uglifyjs --mangle --compress -o bundle.js",
+    "dev": "beefy",
+    "watch": "watchify -vd -t [babelify] src/index.js -o bundle.js"
+  },
+  "author": "Alex Petersen <theoperatore@gmail.com> (http://anpetersen.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.5.0",
+    "babelify": "^7.3.0",
+    "beefy": "^2.1.8",
+    "browserify": "^13.1.0",
+    "uglify-js": "^2.7.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
