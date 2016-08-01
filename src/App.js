@@ -14,9 +14,9 @@ export default class App extends React.Component {
       }
       default: return <div className='p2'>
         <h1>A day at the museum...</h1>
-        <p><a className='' href='#spiral'>Spiral</a></p>
+        <p><a className='' href='/a-day-at-the-museum/#spiral'>Spiral</a></p>
         <p className='p2'>A classic Archimedes Spiral sped up with each individual point's velocity adjusted based on distance from the center. It's a little dizzying, but eventually the patten repeats itself as the "arms" of the spiral grows and shrings in number.</p>
-        <p><a href='#pedal'>Pedals</a></p>
+        <p><a href='/a-day-at-the-museum/#pedal'>Pedals</a></p>
         <p className='p2'>Same animation type as the Sprial, this uses a 48-pedal polar rose as the shape the dots trace. Once all of the pedals are formed, some interesting "coiling" and "uncoiling" patterns emerge.</p>
         <p>Inspired by:</p>
         <dl>
