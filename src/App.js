@@ -40,6 +40,7 @@ export default class App extends React.Component {
           <dd>1968, James Whitney</dd>
         </dl>
         <p>Which comes from <a href='http://www.movingimage.us/exhibitions/2016/03/25/detail/computer-films-of-the-1960s/'>This exhibit</a> at the <a href='http://www.movingimage.us/'>Museum of the Moving Image</a></p>
+        <p><a href='https://github.com/theoperatore/a-day-at-the-museum'>The codes for these demos</a></p>
       </div>
     }
   }
